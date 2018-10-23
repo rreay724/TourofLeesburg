@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Tour of Leesburg</string>
+
+    <string name="category_history">Town History</string>
+    <string name="category_sites">Historical Town Sites</string>
+
+    <string name ="early_settlement">Following the 1722 Treaty of Albany, in which the Iroquois
+        abandoned all lands east of the Blue Ridge Mountains to the colony of Virginia, colonists
+        and new immigrants of a wide variety of ethnic and religious backgrounds began settling the
+        lands that would become Loudoun County. In 1730, Thomas, the 6th Earl of Fairfax,
+        granted 4054 acres, including what would become Leesburg, to Francis Awbrey.
+        At the intersection of the major north-south Carolina Road (now U.S. Highway 15) and
+        the east-west oriented Potomac Ridge Road (now Virginia Highway 7), a small settlement
+        emerged. </string>
+
+    <string name="founding_and_revolution">In 1757, the Assembly of Virginia selected this
+        settlement for the location of the Loudoun County courthouse. The town\'s name was changed
+        to Leesburg, for the Lee family, by an Act of Assembly in September 1758 that officially
+        established the town. Initial town trustees included Nicholas Minor, Philip Ludwell Lee,
+        and Francis Lightfoot Lee, who were responsible for regulating building in the town.
+        The land was owned by Nicholas Minor, who had hired John Hough to survey and plat his 60 acres
+        into 70 lots to form a town, which he called George Town. The original map from 1757 is
+        no longer in existence; his 1759 revised map shows Leesburg\'s subdivision into 70 lots
+        divided by three north-south and four east-west streets.
+        At first, Minor sold lots for a mere £3, but soon increased his price to £10. In order to prevent
+        the shoddy construction he was seeing, Minor also required purchasers to build on the lots,
+        giving most three years to build a brick, stone or wood house twenty feet wide and sixteen
+        feet long. If they failed to build in a timely fashion, the property reverted back to Minor.
+        Leesburg was a commercial crossroads for Shenandoah Valley farmers near Winchester seeking to move
+        their goods to merchants in Alexandria and Georgetown. With the opening of the Leesburg
+        Turnpike (Virginia Highway 7) - in 1820, the relationship was strengthened.
+        At the start of the American Revolution, Leesburg had fewer than 500 residents. Due in part to its
+        ethnic and religious diversity, which included English, German, and Scotch-Irish belonging
+        to Anglican, Baptist, Methodist, and Quaker (Society of Friends) congregations, many
+        Leesburg residents supported the American Revolution.
+        In June 1774, Leesburg and Loudoun freeholders, meeting in Leesburg, passed the Loudoun County
+        Resolves, which sent a delegation to a Virginia-wide meeting to consider responses to
+        British taxation and other provocations. Loudoun County's militia, in which every freeman
+        between the ages of 16 and 50 was enrolled, was the largest in Virginia with 1,746 men.</string>
+
+</resources>
