@@ -1,8 +1,10 @@
 package com.example.android.tourofleesburg;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,6 +21,8 @@ import java.util.List;
  * A simple {@link Fragment} subclass.
  */
 public class TownInfoFragment extends Fragment {
+
+    private static final String TAG = "TownFragment";
 
 
     public TownInfoFragment() {
@@ -45,6 +49,13 @@ public class TownInfoFragment extends Fragment {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long l) {
+                Log.d(TAG, "button pressed" + position);
+
+                Intent intent = new Intent(getActivity(), TownHistoryInfo.class);
+                startActivity(intent);
+
+
+
 
             }
         });
