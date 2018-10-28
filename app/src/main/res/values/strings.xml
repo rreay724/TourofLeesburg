@@ -4,7 +4,18 @@
     <string name="category_history">Town History</string>
     <string name="category_sites">Historical Town Sites</string>
 
-    <string name ="early_settlement">Following the 1722 Treaty of Albany, in which the Iroquois
+    <string name="early_settlement_title">Early Settlement and Founding</string>
+    <string name="founding_title">Founding and Revolution</string>
+    <string name="war_title">War of 1812 and Lafayette\'s Visit</string>
+    <string name="leesburg_inc_title">Leesburg Inc.</string>
+
+    <string name="balls_bluff_title">Balls Bluff Battlefield and National Cemetery</string>
+    <string name="marshall_house_title">The Marshall House</string>
+    <string name="oatlands_plantation_title">Oatlands Plantation</string>
+    <string name="paxton_manor_title">Paxton Manor</string>
+    <string name="morven_park_title">Morven Park</string>
+
+    <string name="early_settlement_info">Following the 1722 Treaty of Albany, in which the Iroquois
         abandoned all lands east of the Blue Ridge Mountains to the colony of Virginia, colonists
         and new immigrants of a wide variety of ethnic and religious backgrounds began settling the
         lands that would become Loudoun County. In 1730, Thomas, the 6th Earl of Fairfax,
@@ -13,7 +24,7 @@
         the east-west oriented Potomac Ridge Road (now Virginia Highway 7), a small settlement
         emerged. </string>
 
-    <string name="founding_and_revolution">In 1757, the Assembly of Virginia selected this
+    <string name="founding_and_revolution_info">In 1757, the Assembly of Virginia selected this
         settlement for the location of the Loudoun County courthouse. The town\'s name was changed
         to Leesburg, for the Lee family, by an Act of Assembly in September 1758 that officially
         established the town. Initial town trustees included Nicholas Minor, Philip Ludwell Lee,
@@ -37,5 +48,125 @@
         Resolves, which sent a delegation to a Virginia-wide meeting to consider responses to
         British taxation and other provocations. Loudoun County's militia, in which every freeman
         between the ages of 16 and 50 was enrolled, was the largest in Virginia with 1,746 men.</string>
+
+    <string name="war_of_1812">During the War of 1812, Leesburg served as the temporary national
+        archives of the United States. Faced with British invasion of Washington, D.C., the
+        Declaration of Independence, the Constitution, congressional journals, George Washington\'s
+        correspondence and other official documents were squirreled away in a vacant Leesburg
+        house, with former county sheriff and Methodist pastor John Littlejohn keeping the keys.
+        A decade later, President James Monroe resided just south of town at Oak Hill,
+        where he wrote the Monroe Doctrine in 1823. In 1825, the Marquis de la Fayette,
+        a personal friend of Monroe, was feted in Leesburg during his farewell
+        tour of the United States. Lafayette had served during the American Revolution under
+        George Washington, and was wounded at the Battle of Brandywine. During his 1824-1825 tour
+        of America, he visited all twenty-four of the United States.
+    </string>
+
+    <string name="leesburg_inc">The Act of Incorporation of the Town of Leesburg by the General
+        Assembly was signed 18 February 1813, providing for elected officials to pass laws
+        governing the town and manage town affairs. Acts and ordinances governing a variety of
+        activities in the town quickly followed.
+
+        One act, passed 14 August 1813, held residents of lots fronting on King and Loudoun Streets
+        responsible for paving the footways and providing gutters along the street, using stone or
+        bricks that met the guidelines of the town's plan. If owners failed to comply in a timely
+        fashion, the Street Commission was authorized to do the paving and bill the homeowners.
+    </string>
+
+    <string name="balls_bluff_info">The site of one of the largest Civil War engagements in
+        Loudoun County. It is a battlefield area and a United States National Cemetery, located 2
+        miles (3.2 km) northeast of Leesburg, Virginia. The cemetery is the third smallest national
+        cemetery in the United States. Fifty-four Union Army dead from the Battle of Ball\'s Bluff
+        are interred in 25 graves in the half-acre plot; the identity of all of the interred except
+        for one, James Allen of the 15th Massachusetts, are unknown. Monuments to fallen Confederate
+        Sergeant Clinton Hatcher and Union brigade commander Edward Dickinson Baker are located
+        next to the cemetery, though neither is buried there. While the stone wall-enclosed
+        cemetery itself is managed through the Culpeper National Cemetery and owned by the
+        Department of Veterans Affairs, the balance of the 223-acre (0.90 km2) park is managed
+        through the Northern Virginia Regional Park Authority.
+    </string>
+
+    <string name="marshall_house_info">
+        The Marshall House (formerly Dodona Manor), is situated on 3.8 acres of gardens on
+        the eastern end of Leesburg\'s Old and Historic District. The site is designated a National
+        Historic Landmark as the residence of General George C. Marshall from 1941 until 1959.
+        During his residency in the home, General Marshall served our nation as Chief of Staff of
+        the Army, as Special Envoy to China, as Secretary of State, as President of the American
+        Red Cross, and as Secretary of Defense. His career as a military officer spanned 44 years,
+        including distinguished service in two world wars. General Marshall was the architect of
+        the European Recovery Plan (The Marshall Plan), and was awarded the Nobel Peace Prize in
+        1953. General Marshall was described as the "Greatest American of the twentieth
+        century" by both Franklin Roosevelt and Winston Churchill. More than 90 percent of the
+        items in the house belonged to the Marshalls when they lived here in the 1950s.
+    </string>
+
+    <string name="oatlands_plantation_info">The Oatlands property is composed of the main mansion
+        and 415 acres (168.0 ha) of farmland and gardens. The house is judged one of the finest
+        Federal period country estate houses in the nation. Oatlands Plantation was established by
+        George Carter, a great grandson of Robert "King" Carter, in 1798 on 3,408 acres (1,980 ha)
+        of farmland. It started as a wheat farm, but expanded to include other grains, sheep, a
+        gristmill and a saw mill, and a vineyard. In 1804, Carter began construction of a Federal
+        mansion, which he expanded in the 1820s and 1830s. He also built a terraced garden and
+        numerous outbuildings.
+
+        The success of Carter's plantation and business ventures depended on slave labor.
+        Seventeen enslaved people worked the property when Carter began farming. By purchase and
+        natural increase, the number of slaves had risen to 133 at the time of the 1860 census.
+        Their work included planting and harvesting the fields; caring for farm animals; domestic
+        employment such as cooking, cleaning, caring for children, and sewing; and probably trades
+        such as blacksmithing and milling.
+    </string>
+
+    <string name="paxton_manor_info">Paxton Manor, first known as Carlheim Manor, was conceived by
+        a wealthy industrialist from Pennsylvania, named Charles R. Paxton. In 1869, Paxton moved
+        into Leesburg with his wife, Rachel, and purchased 765 acres of land. His property’s
+        massive extent afforded a home of extreme size as well, and so in 1872, it was certainly a
+        lavish structure which architect Henry C. Dudley delivered4. Dudley’s interlaced dark brown
+        sandstone with pinkish ones to create a two and a half story main house that mimicked the
+        look of Italian villas. His approach to exterior details was restrained and simple, but he
+        gave the inside of the house much more attention. Dudley installed beautiful marble
+        mantels, a massive central staircase, elaborate panel work… even a central heating system.
+        For Rachel Paxton, this comfortable 20,000 square foot home was the ideal setting to host
+        lavish parties and raise her only child, Margaret.
+
+        The house is built on an area which has experienced plenty of supernatural activity and
+        warfare. Leesburg’s earliest occupants include the Algonquian Indians, who believed in the
+        afterlife and practiced shamanic rituals. Perhaps their efforts to reconnect with the
+        deceased are what have left portals to the hereafter still open. Two other tribes, the
+        Catawba and the Lenape, frequently butted heads, and had a particularly bloody battle right
+        by Leesburg. You can imagine that the spirits of these warring warriors have been unhappily
+        disturbed by the influx of present day tourists.
+
+        Leesburg’s colonial era is also marked by much black magic and bloodshed. Though Virginia
+        was not as eager as Massachusetts3 to prosecute those accused of witchcraft, it too had its
+        fair share of trials. You can be sure that the spirits of the wrongly convicted have yet
+        to move on from the area. Ghosts of dead soldiers are also believed to be a chief source
+        of Leesburg’s paranormal activity. In fact, the famous Civil War Battle, the Battle of
+        Ball\'s Bluff, occurred right by the Carlheim estate. It is said that the Paxton house is
+        haunted by traumatized troops who may have sought refuge at the building.
+    </string>
+
+    <string name="morven_park_info">Morven Park first opened to the public in 1967, under the
+        operation of the Westmoreland Davis Memorial Foundation. Marguerite Davis, who with her
+        husband Westmoreland, governor of Virginia during World War I, purchased the property in
+        1903, established the Foundation in order to preserve their home and its stunning grounds
+        for the benefit of the public. Marguerite owned the estate until her death in 1963.
+
+        Morven Park\'s iconic mansion began as a small fieldstone house, built circa 1780 and
+        expanded upon through the decades until it became the 22-room Greek revival mansion we
+        see today. For 100 years, Morven Park was the home of the Swann family, beginning in 1800
+        with Thomas Swann Sr., who served as Attorney General for Washington, D.C.. Before his
+        death, Swann distributed and sold portions of Morven Park to his children, and in 1842,
+        Thomas Swann Jr. purchased his siblings’ properties to become sole owner of Morven Park.
+        Mr. Swann, Jr., made his primary residence in Maryland, keeping Morven Park as his summer
+        retreat. A successful railroad executive, he moved into politics and served as mayor of
+        Baltimore, governor of Maryland and in the U.S. House of Representatives for five terms.
+        Mar Mercer Swann Carter, Thomas Swann, Jr.'s daughter, inherited Morven Park and she
+        remained its owner until 1898. By the time Westmoreland Davis purchased the estate in 1903,
+        it had changed hands several times, and they became its final private owners.
+    </string>
+
+
+
 
 </resources>

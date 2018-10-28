@@ -1,7 +1,6 @@
 package com.example.android.tourofleesburg;
 
 import android.app.Activity;
-import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.content.ContextCompat;
@@ -13,13 +12,13 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class TitleAdapter extends ArrayAdapter<Title>{
+public class TitleAdapter extends ArrayAdapter<Title> {
 
     private int mColorResourceId;
 
 
-    public TitleAdapter(Activity context, ArrayList<Title> titles, int colorResourceId){
-        super (context, 0, titles);
+    public TitleAdapter(Activity context, ArrayList<Title> titles, int colorResourceId) {
+        super(context, 0, titles);
         mColorResourceId = colorResourceId;
 
 
@@ -30,7 +29,7 @@ public class TitleAdapter extends ArrayAdapter<Title>{
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
 
         View listItemView = convertView;
-        if(listItemView == null){
+        if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
         }
 

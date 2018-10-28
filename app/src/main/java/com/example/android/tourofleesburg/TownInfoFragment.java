@@ -9,13 +9,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -31,7 +27,7 @@ public class TownInfoFragment extends Fragment {
 
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(final LayoutInflater inflater, final ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.tour_list, container, false);
 
@@ -42,6 +38,7 @@ public class TownInfoFragment extends Fragment {
         titles.add(new Title("War of 1812 and Lafayette's Visit"));
         titles.add(new Title("Leesburg Inc."));
 
+
         TitleAdapter adapter = new TitleAdapter(getActivity(), titles, R.color.titleColor);
         ListView listView = rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
@@ -51,11 +48,21 @@ public class TownInfoFragment extends Fragment {
             public void onItemClick(AdapterView<?> parent, View view, int position, long l) {
                 Log.d(TAG, "button pressed" + position);
 
-                Intent intent = new Intent(getActivity(), TownHistoryInfo.class);
-                startActivity(intent);
 
+                if (position == 0) {
+                    Intent intent = new Intent(getActivity(), EarlySettlement.class);
+                    startActivity(intent);
+                } else if (position == 1) {
+                    Intent intent = new Intent(getActivity(), FoundationAndRevolution.class);
+                    startActivity(intent);
+                } else if (position == 2) {
+                    Intent intent = new Intent(getActivity(), WarOf1812.class);
+                    startActivity(intent);
+                } else {
+                    Intent intent = new Intent(getActivity(), LeesburgInc.class);
+                    startActivity(intent);
 
-
+                }
 
             }
         });

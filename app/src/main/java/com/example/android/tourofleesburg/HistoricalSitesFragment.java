@@ -1,6 +1,7 @@
 package com.example.android.tourofleesburg;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -8,7 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -43,6 +43,26 @@ public class HistoricalSitesFragment extends Fragment {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long l) {
+
+                if (position == 0) {
+                    Intent intent = new Intent(getActivity(), BallsBluff.class);
+                    startActivity(intent);
+                } else if (position == 1) {
+                    Intent intent = new Intent(getActivity(), MarshallHouse.class);
+                    startActivity(intent);
+                } else if (position == 2) {
+                    Intent intent = new Intent(getActivity(), Oatlands.class);
+                    startActivity(intent);
+                } else if (position == 3) {
+                    Intent intent = new Intent(getActivity(), PaxtonManor.class);
+                    startActivity(intent);
+                } else {
+                    Intent intent = new Intent(getActivity(), MorvenPark.class);
+                    startActivity(intent);
+
+//
+
+                }
 
             }
         });

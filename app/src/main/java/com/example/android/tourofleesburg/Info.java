@@ -3,10 +3,10 @@ package com.example.android.tourofleesburg;
 public class Info {
 
     private String mInfoTitle;
-    private String mInformation;
+    private int mInformation;
     private int mImageId;
 
-    public Info (String infoTitle, String information, int imageId){
+    public Info(String infoTitle, int information, int imageId) {
         mInfoTitle = infoTitle;
         mInformation = information;
         mImageId = imageId;
@@ -16,7 +16,7 @@ public class Info {
         return mInfoTitle;
     }
 
-    public String getInformation() {
+    public int getInformation() {
         return mInformation;
     }
 

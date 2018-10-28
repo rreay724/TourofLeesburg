@@ -10,7 +10,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     private Context mContext;
 
 
-    public CategoryAdapter(Context context, FragmentManager fm){
+    public CategoryAdapter(Context context, FragmentManager fm) {
         super(fm);
         mContext = context;
     }
@@ -19,21 +19,21 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         if (position == 0) {
             return new TownInfoFragment();
-        }else{
-            return  new HistoricalSitesFragment();
+        } else {
+            return new HistoricalSitesFragment();
         }
     }
 
     @Override
-    public int getCount(){
+    public int getCount() {
         return 2;
     }
 
     @Override
-    public CharSequence getPageTitle(int position){
+    public CharSequence getPageTitle(int position) {
         if (position == 0) {
             return mContext.getString(R.string.category_history);
-        }else{
+        } else {
             return mContext.getString(R.string.category_sites);
         }
     }
