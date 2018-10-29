@@ -14,7 +14,7 @@ public class LeesburgInc extends AppCompatActivity {
         titleHeader.setText(R.string.leesburg_inc_title);
 
         ImageView imageView = findViewById(R.id.tourImage);
-        imageView.setImageResource(R.drawable.leesburg_view);
+        imageView.setImageResource(R.drawable.historic_leesburg);
 
         TextView description = findViewById(R.id.contentDescription);
         description.setText(R.string.leesburg_inc);
